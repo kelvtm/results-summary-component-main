@@ -1,0 +1,158 @@
+ @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+ 
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    /* for mobile */
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    h1 {
+        font-size: 1.2rem;
+        color:  hsl(241, 100%, 89%);
+    }
+    .gre{
+        margin-bottom: 10px;
+    }
+    p {
+        color:  hsl(241, 100%, 89%);
+    }
+    .num {
+        font-size: 3rem;
+        font-weight: 900;
+    }
+    .num2 {
+        font-size: 0.8rem;
+    }
+    .sum {
+        font-size: 1.1rem;
+        margin-bottom: 25px;
+    }
+    .circle {
+        border-radius: 50%;
+        width: 8.6rem;
+        height: 8.6rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column wrap;
+        text-align:center; padding-top: 20px;
+        background: linear-gradient(to bottom,  #370db4a2 0%,#7969f220 100%);
+        padding-bottom: 1rem;
+        margin: 1.6rem;
+    } 
+    main{
+        text-align: center;
+        border-radius: 0 0 2rem 2rem;
+        color: hsl(0, 0%, 100%);
+        padding-top: 10px;
+        padding-bottom: 30px;
+        font-family: 'Outfit', sans-serif;
+        background-color: hsl(241, 81%, 54%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 2rem;
+    }
+    .content{
+        font-family: 'Outfit', sans-serif;
+        padding-top: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .pod {
+        height: 50px;
+        margin: 1rem auto;
+        border-radius: 1rem;
+        padding: 0.6rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;  
+    }
+    .reaction {
+        font-size: 0.9rem;
+        background-color: rgba(0, 189, 145, 0.078);
+    }
+    .rea {
+        color:hsl(0, 100%, 67%);
+        }
+    .memory {
+        background-color: rgba(255, 177, 31, 0.07);
+        font-size: 0.9rem;
+    }
+    .mem {
+        color: hsl(39, 100%, 56%);
+    }
+    .verbal {
+        background-color:  rgba(200, 199, 255, 0.121);
+        font-size: 0.9rem;
+    }
+    .ver {
+        color: hsl(166, 100%, 37%);;
+    }
+    .visual {
+        background-color: hsl(221, 100%, 96%);
+        font-size: 0.9rem;
+    }
+    .vis {
+        color: hsl(234, 85%, 45%);
+        
+    }
+    span {
+        color: hsl(166, 100%, 37%);
+    }
+    h4 {
+        color: hsl(224, 30%, 27%);
+    }
+    h3 {
+        color: hsl(224, 30%, 27%);
+    }
+    button {
+        cursor: pointer;
+        display: block;
+        padding: 1rem 8rem;
+        margin: 1rem auto;
+        border-radius: 2rem;
+        border: none;
+        background-color: hsl(224, 30%, 27%);
+        color: hsl(0, 0%, 100%);
+        font-size: 1.2rem;
+    }
+    button:hover{
+        background-color: red;
+    }
+    button:active{ 
+        background-color: brown;
+    } 
+    /** for dextop **/
+    @media only screen and (min-width: 600px) {
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 700px;
+        }
+        main {
+            border-radius: 2rem;
+            padding-bottom: 0px;
+            padding-top: 0px;
+            min-height: 430px;
+            position: relative;
+            margin: -30px;
+            box-shadow: 0 30px 35px 15px rgba(146, 155, 235, 0.093);;
+        }
+        .content{
+            min-width: 360px;
+            padding-left: 50px;
+            min-height: 430px;
+            border-radius: 0 2rem 2rem 0;
+            box-shadow: 25px 25px 35px 30px rgba(146, 155, 235, 0.093);
+        }
+        button {
+            padding: .8rem 5rem;
+            margin-top: 30px;
+        }
+    } 
+    
