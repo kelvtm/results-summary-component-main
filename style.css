@@ -42,7 +42,7 @@
         padding-bottom: 1rem;
         margin: 1.6rem;
     } 
-    main{
+    .top {
         text-align: center;
         border-radius: 0 0 2rem 2rem;
         color: hsl(0, 0%, 100%);
@@ -107,12 +107,13 @@
         color: hsl(224, 30%, 27%);
     }
     h3 {
-        color: hsl(224, 30%, 27%);
+        display: flex;
     }
     button {
         cursor: pointer;
         display: block;
-        padding: 1rem 8rem;
+        padding: 1rem 0;
+        width: 100%;
         margin: 1rem auto;
         border-radius: 2rem;
         border: none;
@@ -128,13 +129,13 @@
     } 
     /** for dextop **/
     @media only screen and (min-width: 600px) {
-        body {
+        main {
             display: flex;
             justify-content: center;
             align-items: center;
-            min-height: 700px;
+            min-height: 100vh;
         }
-        main {
+        .top {
             border-radius: 2rem;
             padding-bottom: 0px;
             padding-top: 0px;
@@ -151,7 +152,6 @@
             box-shadow: 25px 25px 35px 30px rgba(146, 155, 235, 0.093);
         }
         button {
-            padding: .8rem 5rem;
             margin-top: 30px;
         }
     } 
